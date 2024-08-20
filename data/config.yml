@@ -1,0 +1,35 @@
+buttons:
+  - name: Hello World!
+    icon: https://cdn-icons-png.flaticon.com/512/3699/3699504.png
+    description: Echo hello world in the terminal.
+    command: echo "Hello, world!"
+
+  - name: Ping Google
+    icon: https://cdn-icons-png.flaticon.com/512/1182/1182718.png
+    description: Ping google.com
+    command: ping google.com
+
+  - name: Post to Webhook
+    icon: https://cdn-icons-png.flaticon.com/512/1039/1039328.png
+    description: Post data to a webhook site.
+    command: curl -X POST https://webhook.site/df04f16d-c944-4bad-bba0-90bdeaf0fb17 -d "Hello, world!"
+
+  - name: GET Webhook
+    icon: https://cdn-icons-png.flaticon.com/512/3079/3079236.png
+    description: GET request to a webhook site.
+    command: curl -X GET https://webhook.site/df04f16d-c944-4bad-bba0-90bdeaf0fb17
+
+  - name: Get a Chuck Norris Joke
+    icon: https://cdn-icons-png.flaticon.com/512/754/754877.png
+    description: Get a random Chuck Norris joke.
+    command: curl -s https://api.chucknorris.io/jokes/random | jq -r ".value"
+
+  - name: System Info
+    icon: https://cdn-icons-png.flaticon.com/512/753/753345.png
+    description: Display system information.
+    command: systeminfo
+
+  - name: IP Configuration
+    icon: https://cdn-icons-png.flaticon.com/512/6062/6062646.png
+    description: Display IP configuration.
+    command: ipconfig
